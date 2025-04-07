@@ -40,9 +40,6 @@ image_filter = tf.nn.conv2d(
     padding='SAME',
 )
 
-# plt.figure(figsize=(6, 6))
-# plt.show()
-
 #image detect
 image_detect = tf.nn.relu(image_filter)
 
