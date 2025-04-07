@@ -41,8 +41,6 @@ image_filter = tf.nn.conv2d(
 )
 
 # plt.figure(figsize=(6, 6))
-# plt.imshow(tf.squeeze(image_filter))
-# plt.axis('off')
 # plt.show()
 
 #image detect
